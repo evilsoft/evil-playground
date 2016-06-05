@@ -4,6 +4,7 @@
   "description": "Just a simple Javascript sandboxed environment for playing with toys in.",
   "main": "index.js",
   "scripts": {
+    "preversion": "npm test",
     "start": "nodemon index.js -q -x 'clear && node'",
     "test:watch": "npm run test -- --watch",
     "test": "mocha ./test/"
