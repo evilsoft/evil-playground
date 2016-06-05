@@ -1,6 +1,6 @@
 {
   "name": "evil-playground",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Just a simple Javascript sandboxed environment for playing with toys in.",
   "main": "index.js",
   "scripts": {
