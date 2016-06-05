@@ -6,6 +6,8 @@ Other features include a colorful logging system and mocha-chai set up for writt
 
 As always this will only work with a POSIX based system.
 
+***NOTE:*** This codebase has removed babel and as such requires the latest stable version of nodejs. (6.x or higher).
+
 ### Install
 
 Clone this repo onto your local system, navigate to the folder and run:

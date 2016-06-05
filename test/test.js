@@ -1,13 +1,11 @@
-import chai from 'chai'
+const { expect } = require('chai')
 
-const { expect } = chai
-
-describe('Smoke Test', function() {
-  it('Reports true for true', function() {
+describe('Smoke Test', () => {
+  it('Reports true for true', () => {
     expect(true).to.be.true
   })
 
-  it('Reports false for false', function() {
+  it('Reports false for false', () => {
     expect(false).to.be.false
   })
 })
