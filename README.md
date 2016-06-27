@@ -2,7 +2,7 @@
 
 Just a simple playground that can be used for trying things out or just to explain something to someone.
 Provides an environment set up to use es2015 Javascript that will auto run changes you make.
-Other features include a colorful logging system and mocha-chai set up for writting specs for your own assertions.
+Other features include a colorful logging system and tape set up for writting specs for your own assertions.
 
 As always this will only work with a POSIX based system.
 
@@ -35,7 +35,7 @@ The initial 'Up and running' string should appear once started and you are good 
 
 #### Test some code
 
-Testing is set up with mocha for the runner and the expect interface for chai as the assertion library.
+Testing is set up with tape.
 Specs live in the `test` directory and can be run in one of two ways, each with it's own command.
 
 ##### One shot
