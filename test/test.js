@@ -1,11 +1,8 @@
-const { expect } = require('chai')
+const test = require('tape')
 
-describe('Smoke Test', () => {
-  it('Reports true for true', () => {
-    expect(true).to.be.true
-  })
+test('smoke test', t => {
+  t.plan(2)
 
-  it('Reports false for false', () => {
-    expect(false).to.be.false
-  })
+  t.equal(true, true, 'true is equal to true')
+  t.equal(false, false, 'false is equal to false')
 })

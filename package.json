@@ -6,8 +6,8 @@
   "scripts": {
     "preversion": "npm test",
     "start": "nodemon index.js -q -x 'clear && node'",
-    "test:watch": "npm run test -- --watch",
-    "test": "mocha ./test/"
+    "test:watch": "nodemon -q -e js -x 'npm test -s | tap-spec'",
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -20,11 +20,13 @@
   },
   "homepage": "https://github.com/evilsoft/evil-playground#readme",
   "dependencies": {
-    "chai": "^3.4.1",
     "eyes": "^0.1.8",
     "lodash": "^4.6.1",
-    "mocha": "^2.3.4",
     "nodemon": "^1.8.1",
     "ramda": "^0.21.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
   }
 }
