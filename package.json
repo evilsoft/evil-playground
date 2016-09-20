@@ -23,7 +23,7 @@
     "eyes": "^0.1.8",
     "lodash": "^4.6.1",
     "nodemon": "^1.8.1",
-    "ramda": "^0.21.0"
+    "ramda": "^0.22.1"
   },
   "devDependencies": {
     "tap-spec": "^4.1.1",
