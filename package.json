@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/evilsoft/evil-playground#readme",
   "dependencies": {
-    "eslint": "^4.11.0",
+    "eslint": "^5.9.0",
     "eyes": "^0.1.8",
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.18.6"
   },
   "devDependencies": {
-    "tap-spec": "^4.1.1",
-    "tape": "^4.8.0"
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
   }
 }
